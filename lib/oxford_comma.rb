@@ -8,6 +8,5 @@ def oxford_comma(array)
     array << " and "
     string = array.join(",")
     string << last
-    array.join
 end
 end
