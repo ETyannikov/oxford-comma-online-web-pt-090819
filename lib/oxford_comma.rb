@@ -6,8 +6,8 @@ def oxford_comma(array)
   else array.size == 3
     last = array.pop
     array << " and "
-    array.join(",")
-    array.split(",")
+    string = array.join(",")
+    array = string.split(",")
     array << last
     array.join
 end
