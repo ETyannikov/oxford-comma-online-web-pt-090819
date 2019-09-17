@@ -7,7 +7,7 @@ def oxford_comma(array)
     last = array.pop
     array << " and "
     string = array.join(",")
-    array << last
+    string << last
     array.join
 end
 end
